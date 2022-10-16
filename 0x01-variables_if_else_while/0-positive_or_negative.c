@@ -1,6 +1,6 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /**
  * main - Entry point
  * Decription: prints if a number is positive or negative.
@@ -20,7 +20,7 @@ int main(void)
 	{
 		printf("%d is zero\n", n);
 	}
-	else if (n < 0)
+	else
 	{
 		printf("%d is negative\n", n);
 	}
