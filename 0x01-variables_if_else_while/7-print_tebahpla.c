@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include <unistd.h>
+#include <std.h>
 /**
  * main - Entry point
  * Description: prints lowercase alphabets in reverse
