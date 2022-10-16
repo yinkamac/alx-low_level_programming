@@ -1,19 +1,23 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
- * main - prints all possible combinations of single-digit numbers
+ * main - Entry
+ * Description : Print base 16 numbers
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int n;
+	char c;
+	char d = '0';
 
-	for (n = 48; n < 58; n++)
+	while ( d <= '9')
 	{
-		putchar(n);
-		if (n != 57)
-		{
-			putchar(',');
-			putchar(' ');
+		putchar(d);
+		d++;
+	}
+	for (c = 'a'; c <= 'f'; c++)
+	{
+		putchar(c);
 		}
 		putchar('\n');
 		return (0);
