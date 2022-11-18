@@ -8,7 +8,6 @@
  */
 
 #include <stdarg.h>
-#include <stdio.h>
 
 /**
  * struct printer - A new struct type defining a printer
